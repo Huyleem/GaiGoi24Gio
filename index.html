@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GaiGoi24Gio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: #222;
+            color: #fff;
+        }
+
+        .navbar .menu {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar .menu li {
+            margin-left: 20px;
+        }
+
+        .navbar .menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero {
+            height: 90vh;
+            background: linear-gradient(#0006, #0006), url('https://pos.nvncdn.com/08d562-10030/art/artCT/20160831_o96Wd0xHz7kHYtOvR6KSYnW5.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: none;
+            background: #ff9800;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+
+        .card {
+            padding: 30px;
+            background: #eee;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+            gap: 10px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">GAIGOI24GIO</h2>
+            <ul class="menu">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Chào mừng bạn đến với dịch vụ Thiên Đường</h1>
+            <p>Quý Phái – Đích Thực – Nam Tính</p>
+            <button onclick="alert('Con chó bị lừa haha')">Bấm Vào Đây Để Sử Dụng Dịch vụ</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Giới Thiệu</h2>
+        <h3><p>Đây Là Nơi Dành Cho Đàn Ông Quý Phái, Là Nơi Cảm Xúc Thăng Hoa</p></h3>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Dịch vụ</h2>
+        <div class="service-list">
+            <div class="card">Massage lành mạnh</div>
+            <div class="card">Xúc bình xăng con</div>
+            <div class="card">Đào tiên rực lửa</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Liên hệ</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Họ và tên" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Nội dung"></textarea>
+            <button>Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025. Tất cả bản quyền thuộc về bố.</p>
+        <p>Nhà thiết kế giấu tên</p>
+        <p>Liên Hệ Hotline: 0334584961</p>
+        <p><i>Email:Bomaysomayqua@hotmail.com</i></p>
+        <p><i>Địa chỉ:Quận bố, Phường mẹ, Ngõ 366</i></p>
+
+
+    </footer>
+
+    <script>
+        console.log("Website đang hoạt động!");
+    </script>
+</body>
+</html>
